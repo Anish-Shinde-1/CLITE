@@ -1,52 +1,36 @@
-# Prerequisites
-*.d
+# Ignore CMake build files
+CMakeCache.txt
+CMakeFiles/
+CMakeTmp/
+Makefile
+Makefile2
+cmake_install.cmake
+cmake.check_cache
+CMakeOutput.log
+CMakeDirectoryInformation.cmake
 
-# Object files
+# Ignore object files and executables
 *.o
-*.ko
-*.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
 *.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
 *.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
 *.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+text_editor
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# Ignore temporary files
+*.tmp
+*.swp
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Ignore IDE specific files
+.idea/
+.vscode/
+*.user
+*.suo
+*.sln
+
+# Ignore log files
+*.log
+
+# Ignore any backup or temporary files
+*~ 
+*.bak
+*.swp
